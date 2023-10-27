@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: #0B2434;
+    font-family: 'Inter', sans-serif;
+}
+main {
+    width: 90%;
+    max-width: 800px;
+    min-height: 90vh;
+    background: #F5F7FB;
+    margin: 1rem auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./files/blob5.png), url(./files/blobs.png);
+    background-size: 100px;
+    background-position: left bottom, right top;
+    background-repeat: no-repeat, no-repeat;
+}
+.start-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+}
+.title, .description {
+    color: #293264;
+    margin-top: 0;
+}
+
+.title {
+    font-family: 'Karla', sans-serif;
+}
+
+.start-btn {
+    border: none;
+    background: #4D5B9E;
+    padding: 1rem 3rem;
+    color: #F5F7FB;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif
+}
+.questions-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+.quiz {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+}
+
+.qa {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #DBDEF0;
+    width: fit-content;
+}
+
+.question {
+    font-size: 1rem;
+    color: #293264;
+    margin-bottom: 0;
+}
+.answers {
+    margin: 1rem 0 0 0;
+}
+.answer {
+    display: inline-block;
+    width: fit-content;
+    padding: 5px;
+    border: 1px solid #4D5B9E;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    margin: 5px 5px 0 0;
+    font-size: 0.7rem;
+    user-select: none;
+}
+
+.answer:hover {
+    border: none;
+    background: #D6DBF5;
+}
+
+.check-btn {
+    border: none;
+    background: #4D5B9E;
+    width: 120px;
+    height: 35px;
+    color: #F5F7FB;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.7rem;    
+}
+.buttons {
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+}
+.buttons p {
+    margin-right: 0.5rem; 
+}
