@@ -51,7 +51,9 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 2rem;
+}
+.questions-page .title {
+    margin: 1rem 0 0 0;
 }
 .quiz {
     display: flex;
