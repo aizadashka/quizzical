@@ -5,9 +5,12 @@ body {
     margin: 0;
     background-color: #0B2434;
     font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 main {
-    width: 90%;
+    width: 90vw;
     max-width: 800px;
     min-height: 90vh;
     background: #F5F7FB;
